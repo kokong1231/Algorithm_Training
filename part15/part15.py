@@ -13,6 +13,6 @@ with requests.session() as s:
         in_soup = bs(in_html, 'html.parser')
         
         if str(in_soup.select('p')[1]) == '<p>Account number is valid.</p>':
-            print(x)
+            print("결과 : ",x)
             break
 

@@ -21,4 +21,4 @@ with requests.session() as s:
                 save.append(x)
                 break
 
-print("".join(save))
+print("결과 : ","".join(save))
