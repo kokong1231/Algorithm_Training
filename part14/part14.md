@@ -1,0 +1,3 @@
+[Webgoat]
+
+blind string sql injection 자동화
